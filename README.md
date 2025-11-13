@@ -9,7 +9,6 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 A simple **web-based image classification app** built with **Flask** and **Keras**.  
 It allows users to upload an image, processes it with a trained CNN model, and returns the predicted class — all through an intuitive web interface.
@@ -18,14 +17,11 @@ It allows users to upload an image, processes it with a trained CNN model, and r
 
 ## 📋 Table of Contents
 
-- [About](#about)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
-- [Troubleshooting](#troubleshooting)
-- [Tech Stack](#tech-stack)
+- [About](#-about)
+- [Features](#-features)
+- [Setup](#-setup)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
 - [Authors](#authors)
 
 ---
@@ -54,15 +50,22 @@ It’s designed as a minimal full-stack machine learning application — a found
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Setup
+**NOTE:** This repo uses **Git LFS** to store large model files. Make sure you have Git LFS installed:
 
 1. **Clone the repository**
 ```bash
+git lfs install
 git clone https://github.com/Sfeso13/Breast-Cancer-Classification-App.git
-cd Breast-Cancer-Classification-App
 ```
+If you already cloned without LFS:
+```bash
+git lfs pull
+```
+
 2. **Create and activate a virtual environment**
 ```bash
+cd Breast-Cancer-Classification-App
 python3 -m venv venv
 ```
 Linux/macos
@@ -91,15 +94,20 @@ http://127.0.0.1:5000
 And upload an image to get its classification
 
 ## 🗂️ Project Structure
-```
-cnn_app/
-├── app.py
-├── models/
-│ ├── sequential_model_cnn.h5
-│ └── high_accuracy_vgg19.h5
-├── templates/
-│ ├── predictions.html
-│ └── index.html
-├── requirements.txt
-└── README.md
-```
+<details>
+  <summary>Click to expand</summary>
+
+  ```
+  cnn_app/
+  ├── app.py
+  ├── models/
+  │ ├── sequential_model_cnn.h5
+  │ └── vgg19.h5
+  ├── templates/
+  │ ├── predictions.html
+  │ └── index.html
+  ├── requirements.txt
+  └── README.md
+  ```
+
+</details>
