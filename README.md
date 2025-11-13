@@ -51,8 +51,8 @@ It’s designed as a minimal full-stack machine learning application — a found
 ---
 
 ## ⚙️ Setup
-**NOTE:** This repo uses **Git LFS** to store large model files. Make sure you have Git LFS installed:
 
+**NOTE:** This repo uses **Git LFS** to store large model files. Make sure you have Git LFS installed:
 1. **Clone the repository**
 ```bash
 git lfs install
@@ -94,6 +94,7 @@ http://127.0.0.1:5000
 And upload an image to get its classification
 
 ## 🗂️ Project Structure
+
 <details>
   <summary>Click to expand</summary>
 
