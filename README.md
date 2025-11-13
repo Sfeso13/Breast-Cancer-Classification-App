@@ -22,11 +22,10 @@ It allows users to upload an image, processes it with a trained CNN model, and r
 - [Setup](#-setup)
 - [Usage](#-usage)
 - [Project Structure](#-project-structure)
-- [Authors](#authors)
 
 ---
 
-## 🧩 About
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Film%20Projector.png" alt="Film Projector" width="25" height="25" /> About
 
 This project integrates a **Convolutional Neural Network (CNN)** model, and precisely the VGG19 model (I might change it in the future since this model is kinda overkill for this use case), with a **Flask** backend to classify images in real-time.  
 It’s designed as a minimal full-stack machine learning application — a foundation for deploying deep learning models as web services.
@@ -39,7 +38,7 @@ It’s designed as a minimal full-stack machine learning application — a found
 
 ---
 
-## ✨ Features
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Control%20Knobs.png" alt="Control Knobs" width="25" height="25" /> Features
 
 - ✅ Upload any image through a browser or API request  
 - ✅ Preprocess image input using OpenCV (resize, normalize, reshape)  
@@ -50,7 +49,7 @@ It’s designed as a minimal full-stack machine learning application — a found
 
 ---
 
-## ⚙️ Setup
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" alt="Gear" width="25" height="25" /> Setup
 
 **NOTE:** This repo uses **Git LFS** to store large model files. Make sure you have Git LFS installed:
 1. **Clone the repository**
@@ -82,7 +81,7 @@ pip install -r requirements.txt
 ```
 ---
 
-## 🚀 Usage
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Abacus.png" alt="Abacus" width="25" height="25" /> Usage
 1. **Run the app**
 ```bash
 python app.py
@@ -93,7 +92,7 @@ http://127.0.0.1:5000
 ```
 And upload an image to get its classification
 
-## 🗂️ Project Structure
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" alt="Card File Box" width="25" height="25" /> Project Structure
 
 <details>
   <summary>Click to expand</summary>
